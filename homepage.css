@@ -1,0 +1,94 @@
+*{
+	margin-top:1px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	font-family: Arial black;
+	font-size:19px;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../homepage1.jpg);
+	height:176vh;
+	background-size:cover;
+	background-position:center;
+}
+
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:695px;
+	margin-right: 598px;
+}
+
+ul li{
+	display:inline-block;
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	padding:9px 15px;
+	border:4px solid green;
+	transition:0.8s ease;
+}
+
+ul li a:hover{
+	background-color:beige;
+	color:#000;
+}
+
+ul li.on a{
+	background-color:beige;
+	color:#000;
+}
+
+.logo img{
+	float:left;
+	width:150px;
+	height:auto;
+}
+
+.home{
+	max-width: 1300px;
+	margin:auto;
+}
+
+.title{
+	position: absolute;
+	top: 11%;
+	left:13%;
+	transform: translate(-50%, -50%);
+}
+
+.title h1{
+	font-size: 50px;
+	text-align: center;	
+	background: -webkit-linear-gradient(#ffff66, #00cc00);
+  	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent; 
+}
+
+.me{
+	position: absolute;
+	top: 135%;
+	left:35%;
+	transform: translate(-50%, -50%);
+
+}
+
+.me h2{
+	font-size: 31px;
+	text-align: left;	
+	background: -webkit-linear-gradient(#ffff66, #00cc00);
+  	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+}
+
+.pic {
+	position: absolute;
+	top: 55%;
+	left:49%;
+	transform: translate(-50%, -50%);
+
+}
